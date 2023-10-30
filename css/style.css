@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Kaisei+Tokumin:wght@400;500;700;800&family=Montserrat:ital,wght@0,100;0,300;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,100;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vina+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -1;
+    
+}
+.header{
+    background-color:#D9D9D9;
+    border-radius: 150px;
+}
+.home{
+    bottom: 100px;
+}
+.navbar a{
+    font-size: 1rem;
+    color: #00B068;
+    margin-right: 10rem;
+    transition: 1s;
+}
+.navbar a:hover{
+    color: black;
+}
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.home-img img{
+    width: 23vw;
+    margin-right: 400px;
+    size: 8rem;
+    top: 35px;
+    right: 10px;
+    position: relative;
+    margin-bottom: 100px;
+
+}
+.home-content h1{
+   font-size: 3rem;
+   font-weight: 0;
+   line-height: 1;
+   color:#047E4C;
+   margin-right: 30px;
+   margin-bottom: 30px;
+}
+.box-background{
+    height: 0.5px;
+    background:#00B068;
+    width: 230px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.home-content p{
+    font-size: 1.rem;
+    margin-left: -70px;
+    margin-right: 50px;
+}
+.text{
+    display: block;
+    right: 12%;
+    padding-right: 10%;
+    align-items: end;
+}
+.text h3{
+    padding: 3%;
+    font-size: 30px;
+    margin-left: 50px;
+    color: #A37F7F;
+    font-weight: 400;
+    line-height: 0.5;
+    font-style: 'Italianno', cursive;
+    font-family: 'Italianno', cursive;
+}
+
+
